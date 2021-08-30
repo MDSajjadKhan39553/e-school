@@ -56,12 +56,149 @@
     background-color: #21B573;
     margin-top: 30px;
 }
-.bg{
-    height: 270px;
-    width: 270px;
-    background-color: red;
+.card1{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
-.bg img{
-    height: 85px;
-    width: 80px;
+.topic{
+    height: 300px;
+    width: 300px;
+    background-color: #F8FFFB;
+    padding: 75px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+.students{
+    height: 300px;
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 75px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left:50px;
+    box-shadow: 2px 2px 15px 10px #E5E5E5;
+}
+.test{
+    height: 300px;
+    width: 300px;
+    background-color: #F8FFFB;
+    padding: 75px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left:100px;
+}
+.student{
+    height: 300px;
+    width: 300px;
+    background-color:#F8FFFB ;
+    padding:75px;
+    border-radius: 15px;
+    position: relative;
+    top: 40px;
+    left:150px;
+}
+.pic{
+    height: 90px;
+    width: 76px;
+}
+.hd{
+    margin: 100px 0px;
+    text-align: center;
+    color: #413960;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+.cd{
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.buy{
+    height: 35px;
+    width: 135px;
+    border: none;
+    border-radius: 20px;
+    background-color:#21B573 ;
+    color: #FFFFFF;
+    margin: 10px 0px;
+}
+.date-set{
+    display: inline-block;
+}
+.date p{
+    float: left;
+    text-align: center;
+}
+.date img{
+    height: 24px;
+    width: 24px;
+    float: left;
+}
+.set p{
+    float: right;
+    text-align: center;
+}
+.set img{
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 135px;
+}
+.hd2{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    margin: 100px 0px;
+}
+.testimonial img{
+    height: 120px;
+    width: 120px;
+    float: right;
+    text-align: center;
+}
+.testimonial p{
+    text-align: left;
+    float: left;
+    margin: 10px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+footer{
+    background-color:#282531;
+    margin-top: 100px;
+}
+.ftp p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 50px 0px;
+}
+.ftu{
+    margin: 50px 0px;
+}
+.ftu ul li{
+    list-style: none;
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.fhd{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.copy{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0px;
 }
